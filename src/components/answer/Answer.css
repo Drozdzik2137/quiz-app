@@ -1,0 +1,16 @@
+.question-anserws {
+    width: auto;
+}
+
+.answer {
+    border-radius: 12px;
+    font-size: 16px;
+    border: 2px solid #4d5b9e;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    overflow: hidden;
+    /* white-space: nowrap; */
+    white-space: normal;
+
+  }

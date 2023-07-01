@@ -1,0 +1,64 @@
+.settings-title {
+    font-size: 40px;
+    font-weight: 500;
+    color: #293264;
+
+}
+
+.settings-description {
+    font-size: 18px;
+    color: #293264;
+}
+
+.option-label {
+    padding: 0;
+    max-width: 200px;
+    font-size: 16px;
+    color: #293264;
+    font-weight: 500;
+}
+
+.option-input {
+    width: 200px;
+}
+
+.option-select {
+    padding: 0;
+    width: 200px;
+}
+
+.option-btn {
+    width: 200px;
+    height: 48px;
+    border-radius: 16px;
+    color: white;
+    font-size: 18px;
+    font-weight: 500;
+    background-color: #4d5b9e;
+    border: 3px solid #4d5b9e;
+    transition: .5s;
+}
+
+.option-btn:hover {
+    border: 3px solid #4d5b9e;
+    background-color: white;
+    color: #4d5b9e;
+    font-weight: 500;
+    transition: .5s;
+}
+
+.return-btn {
+    width: 200px;
+    height: 48px;
+    border-radius: 16px;
+    border: 3px solid #4d5b9e;
+    background-color: white;
+    color: #4d5b9e;
+    font-size: 18px;
+    font-weight: 500;
+    transition: .5s;
+}
+
+.return-btn:hover {
+    background-color: #e2e2e2;
+}

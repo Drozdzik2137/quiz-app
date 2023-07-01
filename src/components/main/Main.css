@@ -1,0 +1,61 @@
+.spinner-border {
+    width: 5rem;
+    height: 5rem;
+}
+
+.main-content {
+    max-width: 90%;
+    min-height: 100vh;
+    z-index: 2;
+}
+
+.quiz-content {
+    max-width: 800px;
+}
+
+.check-btn, .new-game-btn {
+    min-width: 200px;
+    height: 54px;
+    border-radius: 16px;
+    color: white;
+    font-size: 18px;
+    font-weight: 500;
+    background-color: #4d5b9e;
+    border: 3px solid #4d5b9e;
+    transition: .5s;
+}
+
+.check-btn:hover, .new-game-btn:hover {
+    border: 3px solid #4d5b9e;
+    background-color: white;
+    color: #4d5b9e;
+    font-weight: 500;
+    transition: .5s;
+}
+
+.back-btn {
+    width: 200px;
+    height: 48px;
+    border-radius: 16px;
+    border: 3px solid #4d5b9e;
+    background-color: white;
+    color: #4d5b9e;
+    font-size: 18px;
+    font-weight: 500;
+    transition: .5s;
+}
+
+.back-btn:hover {
+    background-color: #e2e2e2;
+}
+
+.game-score {
+    color: #293264;
+    font-size: 20px;
+    font-weight: 700;
+}
+
+@media (max-width: 767px) {
+    /* CUSTOM WIDTHS */
+    .w-md-100 { width: 100%!important; }
+}

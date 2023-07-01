@@ -1,0 +1,46 @@
+.circle-1 {
+  z-index: 1;
+  position: fixed;
+  top: -20%;
+  right: -25%;
+  width: 400px;
+  height: 300px;
+  border-radius: 50% / 50%;
+  background-color: #fffad1;
+}
+
+.circle-2 {
+  z-index: 1;
+  position: fixed;
+  bottom: -25%;
+  left: -15%;
+  width: 400px;
+  height: 300px;
+  border-radius: 50% / 80% 70%;
+  background-color: #deebf8;
+  transform: rotate(-10deg);
+}
+
+@media screen and (min-width: 1600px){
+  .circle-1 {
+    width: +40%;
+    height: +40%;
+  }
+
+  .circle-2 {
+    width: +40%;
+    height: +40%;
+  }
+}
+
+@media screen and (min-width: 996px){
+  .circle-1 {
+    width: +40%;
+    height: +40%;
+  }
+
+  .circle-2 {
+    width: +40%;
+    height: +40%;
+  }
+}

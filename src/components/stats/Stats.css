@@ -1,0 +1,64 @@
+.stats-title {
+    font-size: 40px;
+    font-weight: 500;
+    color: #293264;
+
+}
+
+.stats-description {
+    font-size: 18px;
+    color: #293264;
+}
+
+.stats-info {
+    max-width: 250px;
+    font-size: 16px;
+    font-style: italic;
+    color: #293264;
+}
+
+/* .last-game, .all-games {
+    width: 230px;
+} */
+
+.last-game-title, .all-games-title {
+    font-size: 18px;
+    font-style: normal;
+    font-weight: 500;
+}
+
+.stat-btn {
+    width: 200px;
+    height: 48px;
+    border-radius: 16px;
+    color: white;
+    font-size: 18px;
+    font-weight: 500;
+    background-color: #4d5b9e;
+    border: 3px solid #4d5b9e;
+    transition: .5s;
+}
+
+.stat-btn:hover {
+    border: 3px solid #4d5b9e;
+    background-color: white;
+    color: #4d5b9e;
+    font-weight: 500;
+    transition: .5s;
+}
+
+.return-btn {
+    width: 200px;
+    height: 48px;
+    border-radius: 16px;
+    border: 3px solid #4d5b9e;
+    background-color: white;
+    color: #4d5b9e;
+    font-size: 18px;
+    font-weight: 500;
+    transition: .5s;
+}
+
+.return-btn:hover {
+    background-color: #e2e2e2;
+}

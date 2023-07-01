@@ -1,0 +1,9 @@
+.single-question  {
+    border-bottom: 1px solid #e5e8f5;
+}
+
+.question-title {
+    color: #293264;
+    font-size: 20px;
+    font-weight: 700;
+}

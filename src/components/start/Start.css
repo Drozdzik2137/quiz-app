@@ -1,0 +1,32 @@
+
+.hello-title {
+    font-size: 40px;
+    font-weight: 500;
+    color: #293264;
+
+}
+
+.hello-description {
+    font-size: 18px;
+    color: #293264;
+}
+
+.start-btn {
+    width: 200px;
+    height: 48px;
+    border-radius: 16px;
+    color: white;
+    font-size: 18px;
+    font-weight: 500;
+    background-color: #4d5b9e;
+    border: 3px solid #4d5b9e;
+    transition: .5s;
+}
+
+.start-btn:hover {
+    border: 3px solid #4d5b9e;
+    background-color: white;
+    color: #4d5b9e;
+    font-weight: 500;
+    transition: .5s;
+}
