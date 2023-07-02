@@ -57,6 +57,7 @@ export default function Stats(props) {
                     <div className='row'>
                         <div className='last-game mb-4'>
                             <div className='row'>
+                              <span className='last-game-title text-center mb-2'>Last game stats</span>
                                 <span>Number of questions: <b>{userStats?.lastGame?.answers ? userStats?.lastGame?.answers : 'No data'}</b></span>
                                 <span>Correct answers: <b>{userStats?.lastGame?.correct ? userStats?.lastGame?.correct : 'No data'}</b></span>
                                 <span>% of correct answers: <b>{userStats?.lastGame?.correct && userStats?.lastGame?.answers ? (userStats?.lastGame?.correct / userStats?.lastGame?.answers) * 100 + ' %' : 'No data'}</b></span>
@@ -66,7 +67,7 @@ export default function Stats(props) {
                         </div>
                         <div className='all-games mb-3'>
                             <div className='row'>
-                                <span className='all-games-title text-center mb-2'>All game stats</span>
+                                <span className='all-games-title text-center mb-2'>All games stats</span>
                                 <span>Number of questions: <b>{userStats?.allGames?.answers ? userStats?.allGames?.answers: 'No data'}</b></span>
                                 <span>Correct answers: <b>{userStats?.allGames?.correct ? userStats?.allGames?.correct: 'No data'}</b></span>
                                 <span>% of correct answers: <b>{(userStats?.allGames?.correct/userStats?.allGames?.answers) * 100 ? ((userStats.allGames?.correct/userStats.allGames?.answers) * 100) + ' %': 'No data'} </b></span>      
